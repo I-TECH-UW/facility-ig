@@ -1,0 +1,9 @@
+[
+  {
+    "id": "empty.ig",
+    "type": "ImplementationGuide",
+    "url": "http://i-tech-uw.github.io/empty-ig/ImplementationGuide/empty.ig",
+    "version": "0.1.0",
+    "name": "EmptyIg"
+  }
+]
