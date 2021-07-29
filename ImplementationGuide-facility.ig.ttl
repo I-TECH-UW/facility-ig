@@ -5,20 +5,20 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://i-tech-uw.github.io/empty-ig/ImplementationGuide/empty.ig> a fhir:ImplementationGuide;
+<http://i-tech-uw.github.io/facility-ig/ImplementationGuide/facility.ig> a fhir:ImplementationGuide;
   fhir:nodeRole fhir:treeRoot;
-  fhir:Resource.id [ fhir:value "empty.ig"];
+  fhir:Resource.id [ fhir:value "facility.ig"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "extensions" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>EmptyIg</h2><p>The official URL for this implementation guide is: </p><pre>http://i-tech-uw.github.io/empty-ig/ImplementationGuide/empty.ig</pre><div><p>Empty IG</p>\n</div></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>FacilityIg</h2><p>The official URL for this implementation guide is: </p><pre>http://i-tech-uw.github.io/facility-ig/ImplementationGuide/facility.ig</pre><div><p>Implementation Guide for specifying Facility Registry (FR)\nrequirements and workflows based on the OpenHIE Architecture Version 3</p>\n</div></div>"
   ];
-  fhir:ImplementationGuide.url [ fhir:value "http://i-tech-uw.github.io/empty-ig/ImplementationGuide/empty.ig"];
+  fhir:ImplementationGuide.url [ fhir:value "http://i-tech-uw.github.io/facility-ig/ImplementationGuide/facility.ig"];
   fhir:ImplementationGuide.version [ fhir:value "0.1.0"];
-  fhir:ImplementationGuide.name [ fhir:value "EmptyIg"];
-  fhir:ImplementationGuide.title [ fhir:value "Empty IG"];
+  fhir:ImplementationGuide.name [ fhir:value "FacilityIg"];
+  fhir:ImplementationGuide.title [ fhir:value "Facility IG"];
   fhir:ImplementationGuide.status [ fhir:value "draft"];
   fhir:ImplementationGuide.experimental [ fhir:value "true"^^xsd:boolean];
-  fhir:ImplementationGuide.date [ fhir:value "2021-07-29T04:09:06+00:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2021-07-29T04:29:49+00:00"^^xsd:dateTime];
   fhir:ImplementationGuide.publisher [ fhir:value "I-TECH-UW"];
   fhir:ImplementationGuide.contact [
      fhir:index 0;
@@ -33,8 +33,8 @@
        fhir:ContactPoint.value [ fhir:value "pmanko@uw.edu" ]
      ]
   ];
-  fhir:ImplementationGuide.description [ fhir:value "Empty IG\n"];
-  fhir:ImplementationGuide.packageId [ fhir:value "empty.ig"];
+  fhir:ImplementationGuide.description [ fhir:value "Implementation Guide for specifying Facility Registry (FR) \nrequirements and workflows based on the OpenHIE Architecture Version 3 \n"];
+  fhir:ImplementationGuide.packageId [ fhir:value "facility.ig"];
   fhir:ImplementationGuide.license [ fhir:value "CC-BY-SA-4.0"];
   fhir:ImplementationGuide.fhirVersion [
      fhir:value "4.0.1";
@@ -180,7 +180,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "value" ];
-         fhir:Extension.valueString [ fhir:value "http://i-tech-uw.github.io/empty-ig/history.html" ]
+         fhir:Extension.valueString [ fhir:value "http://i-tech-uw.github.io/facility-ig/history.html" ]
        ];
        fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
      ], [
@@ -400,7 +400,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<http://i-tech-uw.github.io/empty-ig/ImplementationGuide/empty.ig.ttl> a owl:Ontology;
+<http://i-tech-uw.github.io/facility-ig/ImplementationGuide/facility.ig.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

@@ -1,17 +1,17 @@
 {
   "resourceType": "ImplementationGuide",
-  "id": "empty.ig",
+  "id": "facility.ig",
   "text": {
     "status": "extensions",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>EmptyIg</h2><p>The official URL for this implementation guide is: </p><pre>http://i-tech-uw.github.io/empty-ig/ImplementationGuide/empty.ig</pre><div><p>Empty IG</p>\n</div></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>FacilityIg</h2><p>The official URL for this implementation guide is: </p><pre>http://i-tech-uw.github.io/facility-ig/ImplementationGuide/facility.ig</pre><div><p>Implementation Guide for specifying Facility Registry (FR)\nrequirements and workflows based on the OpenHIE Architecture Version 3</p>\n</div></div>"
   },
-  "url": "http://i-tech-uw.github.io/empty-ig/ImplementationGuide/empty.ig",
+  "url": "http://i-tech-uw.github.io/facility-ig/ImplementationGuide/facility.ig",
   "version": "0.1.0",
-  "name": "EmptyIg",
-  "title": "Empty IG",
+  "name": "FacilityIg",
+  "title": "Facility IG",
   "status": "draft",
   "experimental": true,
-  "date": "2021-07-29T04:09:06+00:00",
+  "date": "2021-07-29T04:29:49+00:00",
   "publisher": "I-TECH-UW",
   "contact": [
     {
@@ -28,8 +28,8 @@
       ]
     }
   ],
-  "description": "Empty IG\n",
-  "packageId": "empty.ig",
+  "description": "Implementation Guide for specifying Facility Registry (FR) \nrequirements and workflows based on the OpenHIE Architecture Version 3 \n",
+  "packageId": "facility.ig",
   "license": "CC-BY-SA-4.0",
   "fhirVersion": [
     "4.0.1"
@@ -182,7 +182,7 @@
           },
           {
             "url": "value",
-            "valueString": "http://i-tech-uw.github.io/empty-ig/history.html"
+            "valueString": "http://i-tech-uw.github.io/facility-ig/history.html"
           }
         ],
         "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"

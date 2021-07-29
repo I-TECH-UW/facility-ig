@@ -1,18 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ImplementationGuide xmlns="http://hl7.org/fhir">
-  <id value="empty.ig"/>
+  <id value="facility.ig"/>
   <text>
-    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>EmptyIg</h2><p>The official URL for this implementation guide is: </p><pre>http://i-tech-uw.github.io/empty-ig/ImplementationGuide/empty.ig</pre><div><p>Empty IG</p>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>FacilityIg</h2><p>The official URL for this implementation guide is: </p><pre>http://i-tech-uw.github.io/facility-ig/ImplementationGuide/facility.ig</pre><div><p>Implementation Guide for specifying Facility Registry (FR)
+requirements and workflows based on the OpenHIE Architecture Version 3</p>
 </div></div>
   </text>
-  <url value="http://i-tech-uw.github.io/empty-ig/ImplementationGuide/empty.ig"/>
+  <url value="http://i-tech-uw.github.io/facility-ig/ImplementationGuide/facility.ig"/>
   <version value="0.1.0"/>
-  <name value="EmptyIg"/>
-  <title value="Empty IG"/>
+  <name value="FacilityIg"/>
+  <title value="Facility IG"/>
   <status value="draft"/>
   <experimental value="true"/>
-  <date value="2021-07-29T04:09:06+00:00"/>
+  <date value="2021-07-29T04:29:49+00:00"/>
   <publisher value="I-TECH-UW"/>
   <contact>
     <name value="I-TECH-UW"/>
@@ -25,8 +26,8 @@
       <value value="pmanko@uw.edu"/>
     </telecom>
   </contact>
-  <description value="Empty IG&#xA;"/>
-  <packageId value="empty.ig"/>
+  <description value="Implementation Guide for specifying Facility Registry (FR) &#xA;requirements and workflows based on the OpenHIE Architecture Version 3 &#xA;"/>
+  <packageId value="facility.ig"/>
   <license value="CC-BY-SA-4.0"/>
   <fhirVersion value="4.0.1"/>
   <dependsOn id="hl7_fhir_uv_ips">
@@ -120,7 +121,7 @@
         <valueString value="path-history"/>
       </extension>
       <extension url="value">
-        <valueString value="http://i-tech-uw.github.io/empty-ig/history.html"/>
+        <valueString value="http://i-tech-uw.github.io/facility-ig/history.html"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">

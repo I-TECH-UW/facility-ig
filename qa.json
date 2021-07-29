@@ -1,9 +1,9 @@
 {
-  "url": "http://i-tech-uw.github.io/empty-ig/ImplementationGuide/empty.ig",
-  "name": "EmptyIg",
-  "package-id": "empty.ig",
+  "url": "http://i-tech-uw.github.io/facility-ig/ImplementationGuide/facility.ig",
+  "name": "FacilityIg",
+  "package-id": "facility.ig",
   "ig-ver": "0.1.0",
-  "date": "Thu, 29 Jul, 2021 04:09:06 +0000",
+  "date": "Thu, 29 Jul, 2021 04:29:49 +0000",
   "errs": 1,
   "warnings": 0,
   "hints": 0,
