@@ -1,0 +1,26 @@
+# Temporary folders #
+#####################
+temp
+template
+output
+fsh-generated
+
+# Don't commit this because it's so large #
+###########################################
+/input-cache/publisher.jar
+/input-cache/txcache/*
+
+# Windows generated files #
+###########################
+Thumbs.db
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+
+# backup files #
+################
+*.bak
+*.cache
+*.ctl

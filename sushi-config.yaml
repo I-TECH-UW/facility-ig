@@ -1,0 +1,37 @@
+# ╭──────────────────────────────────────ImplementationGuide───────────────────────────────────────╮
+# │  The properties below are used to create the ImplementationGuide resource. For a list of       │
+# │  supported properties, see: https://fshschool.org/sushi/configuration/                         │
+# ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
+id: empty.ig
+canonical: http://i-tech-uw.github.io/empty-ig
+name: EmptyIg
+status: draft
+version: 0.1.0
+fhirVersion: 4.0.1
+# copyright:
+copyrightYear: 2021+
+releaseLabel: ci-build
+title: Empty IG
+description: |
+  Empty IG
+license: CC-BY-SA-4.0
+publisher:
+  name: I-TECH-UW
+  url: www.github.com/i-tech-uw
+  email: pmanko@uw.edu
+  contact: Piotr Mankowski
+experimental: true
+parameters:
+  excludettl: true
+ 
+# ╭────────────────────────────────────────────menu.xml────────────────────────────────────────────╮
+# │  To use a provided ig-data/input/includes/menu.xml file, delete the "menu" property below.     │
+# ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
+menu:
+  Home: index.html
+  Table of Contents: toc.html
+  Functional Specifications: spec.html
+  Technical Specifications:
+    Artifacts: artifacts.html
+dependencies:
+  hl7.fhir.uv.ips: 1.0.0
