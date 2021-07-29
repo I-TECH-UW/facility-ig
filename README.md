@@ -1,7 +1,16 @@
-# OpenHIE Laboratory Workflows Implementation Guide
+# OpenHIE Facility Workflows Implementation Guide
 
 ## Overview
-See Published IG here: i-tech-uw.github.io/empty-ig/
+See Published IG here: i-tech-uw.github.io/facility-ig/
+
+This IG will outline the requirements and specifications for a FHIR-based Facility Registry (FR) component of the [OpenHIE Architecture](https://ohie.org/framework/) and use the [IHE](https://www.ihe.net/) [mobile Care Service Discovery (mCDS) Profile](https://wiki.ihe.net/index.php/Mobile_Care_Services_Discovery_(mCSD)). 
+
+See the [Facility Registry Design Document](https://docs.google.com/document/d/1LGzwyxDzH6BmnVn94-V2waCmr0igIhZxxTHD-wnBX50/edit?usp=sharing) for more details. 
+
+### Additional Resources
+- https://intrahealth.github.io/gofr/working_with_fhir/mcsd/
+- https://github.com/IHE/mCSD-Whitepaper/blob/main/mCSD-Whitepaper.md
+- https://github.com/IHE/ITI.mCSD and https://github.com/IHE/ITI.mCSD/pull/3
 
 ## Building Locally
 ### 1. Install nodejs

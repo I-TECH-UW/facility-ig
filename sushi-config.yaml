@@ -2,18 +2,19 @@
 # │  The properties below are used to create the ImplementationGuide resource. For a list of       │
 # │  supported properties, see: https://fshschool.org/sushi/configuration/                         │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
-id: empty.ig
-canonical: http://i-tech-uw.github.io/empty-ig
-name: EmptyIg
+id: facility.ig
+canonical: http://i-tech-uw.github.io/facility-ig
+name: FacilityIg
 status: draft
 version: 0.1.0
 fhirVersion: 4.0.1
 # copyright:
 copyrightYear: 2021+
 releaseLabel: ci-build
-title: Empty IG
+title: Facility IG
 description: |
-  Empty IG
+  Implementation Guide for specifying Facility Registry (FR) 
+  requirements and workflows based on the OpenHIE Architecture Version 3 
 license: CC-BY-SA-4.0
 publisher:
   name: I-TECH-UW
