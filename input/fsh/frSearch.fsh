@@ -3,7 +3,7 @@ InstanceOf: Location
 Usage: #example
 Description: "Example Laboratory Location"
 Title: "Example Lab Location"
-* name[+].text = "Community Health Laboratory"
+* name.text = "Community Health Laboratory"
 * status = #active
 * type.text = "Laboratory"
 
