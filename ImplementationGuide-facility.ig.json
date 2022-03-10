@@ -11,7 +11,7 @@
   "title": "Facility IG",
   "status": "draft",
   "experimental": true,
-  "date": "2021-07-29T04:29:49+00:00",
+  "date": "2022-03-10T21:46:32+00:00",
   "publisher": "I-TECH-UW",
   "contact": [
     {
@@ -316,6 +316,62 @@
           }
         ],
         "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "fmm-definition"
+          },
+          {
+            "url": "value",
+            "valueString": "http://hl7.org/fhir/versions.html#maturity"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "propagate-status"
+          },
+          {
+            "url": "value",
+            "valueString": "true"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      }
+    ],
+    "resource": [
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Bundle"
+          }
+        ],
+        "reference": {
+          "reference": "Bundle/example-fr-search-bundle"
+        },
+        "name": "FR Search Bundle",
+        "description": "Example Facility Registry Search Bundle",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Location"
+          }
+        ],
+        "reference": {
+          "reference": "Location/example-lab-location"
+        },
+        "name": "Example Lab Location",
+        "description": "Example Laboratory Location",
+        "exampleBoolean": true
       }
     ],
     "page": {

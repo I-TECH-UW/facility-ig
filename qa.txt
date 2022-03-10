@@ -1,20 +1,36 @@
 ﻿FacilityIg : Validation Results
 =========================================
 
-err = 1, warn = 0, info = 0
-IG Publisher Version: 1.1.77
-Generated Thu Jul 29 04:29:54 UTC 2021. FHIR version 4.0.1 for facility.ig#0.1.0 (canonical = http://i-tech-uw.github.io/facility-ig)
-
- Build Errors : 7 / 0 / 0
- /github/workspace/fsh-generated/resources/ImplementationGuide-facility.ig : 1 / 0 / 1
+err = 1, warn = 3, info = 0
+IG Publisher Version: 1.1.111
+Generated Thu Mar 10 21:46:44 UTC 2022. FHIR version 4.0.1 for facility.ig#0.1.0 (canonical = http://i-tech-uw.github.io/facility-ig)
+ Build Errors : 17 / 0 / 0
+ /github/workspace/fsh-generated/resources/Bundle-example-fr-search-bundle : 1 / 2 / 2
+ /github/workspace/fsh-generated/resources/ImplementationGuide-facility.ig : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/Location-example-lab-location : 0 / 1 / 1
 </table>
 == n/a ==
-ERROR: /github/workspace/output/artifacts.html#/html/body/div/div/div/p/a at Line 184, column 28: The link 'www.github.com/i-tech-uw' for "I-TECH-UW" cannot be resolved
-ERROR: /github/workspace/output/background.html#/html/body/div/div/div/p/a at Line 174, column 28: The link 'www.github.com/i-tech-uw' for "I-TECH-UW" cannot be resolved
-ERROR: /github/workspace/output/changes.html#/html/body/div/div/div/p/a at Line 182, column 28: The link 'www.github.com/i-tech-uw' for "I-TECH-UW" cannot be resolved
-ERROR: /github/workspace/output/downloads.html#/html/body/div/div/div/p/a at Line 211, column 28: The link 'www.github.com/i-tech-uw' for "I-TECH-UW" cannot be resolved
-ERROR: /github/workspace/output/index.html#/html/body/div/div/div/p/a at Line 209, column 28: The link 'www.github.com/i-tech-uw' for "I-TECH-UW" cannot be resolved
-ERROR: /github/workspace/output/spec.html#/html/body/div/div/div/p/a at Line 189, column 28: The link 'www.github.com/i-tech-uw' for "I-TECH-UW" cannot be resolved
-ERROR: /github/workspace/output/toc.html#/html/body/div/div/div/p/a at Line 172, column 28: The link 'www.github.com/i-tech-uw' for "I-TECH-UW" cannot be resolved
-== /github/workspace/fsh-generated/resources/ImplementationGuide-facility.ig.json ==
-ERROR: ImplementationGuide/facility.ig: ImplementationGuide.definition: ImplementationGuide.definition.resource: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/ImplementationGuide)
+ERROR: /github/workspace/output/Bundle-example-fr-search-bundle.change.history.html#/html/body/div/div/div/p/a at Line 237, column 28: The link 'www.github.com/i-tech-uw' for "I-TECH-UW" cannot be resolved
+ERROR: /github/workspace/output/Bundle-example-fr-search-bundle.html#/html/body/div/div/div/p/a at Line 237, column 28: The link 'www.github.com/i-tech-uw' for "I-TECH-UW" cannot be resolved
+ERROR: /github/workspace/output/Bundle-example-fr-search-bundle.json.html#/html/body/div/div/div/p/a at Line 264, column 28: The link 'www.github.com/i-tech-uw' for "I-TECH-UW" cannot be resolved
+ERROR: /github/workspace/output/Bundle-example-fr-search-bundle.ttl.html#/html/body/div/div/div/p/a at Line 272, column 28: The link 'www.github.com/i-tech-uw' for "I-TECH-UW" cannot be resolved
+ERROR: /github/workspace/output/Bundle-example-fr-search-bundle.xml.html#/html/body/div/div/div/p/a at Line 261, column 28: The link 'www.github.com/i-tech-uw' for "I-TECH-UW" cannot be resolved
+ERROR: /github/workspace/output/Location-example-lab-location.change.history.html#/html/body/div/div/div/p/a at Line 237, column 28: The link 'www.github.com/i-tech-uw' for "I-TECH-UW" cannot be resolved
+ERROR: /github/workspace/output/Location-example-lab-location.html#/html/body/div/div/div/p/a at Line 237, column 28: The link 'www.github.com/i-tech-uw' for "I-TECH-UW" cannot be resolved
+ERROR: /github/workspace/output/Location-example-lab-location.json.html#/html/body/div/div/div/p/a at Line 252, column 28: The link 'www.github.com/i-tech-uw' for "I-TECH-UW" cannot be resolved
+ERROR: /github/workspace/output/Location-example-lab-location.ttl.html#/html/body/div/div/div/p/a at Line 265, column 28: The link 'www.github.com/i-tech-uw' for "I-TECH-UW" cannot be resolved
+ERROR: /github/workspace/output/Location-example-lab-location.xml.html#/html/body/div/div/div/p/a at Line 250, column 28: The link 'www.github.com/i-tech-uw' for "I-TECH-UW" cannot be resolved
+ERROR: /github/workspace/output/artifacts.html#/html/body/div/div/div/p/a at Line 227, column 28: The link 'www.github.com/i-tech-uw' for "I-TECH-UW" cannot be resolved
+ERROR: /github/workspace/output/background.html#/html/body/div/div/div/p/a at Line 183, column 28: The link 'www.github.com/i-tech-uw' for "I-TECH-UW" cannot be resolved
+ERROR: /github/workspace/output/changes.html#/html/body/div/div/div/p/a at Line 191, column 28: The link 'www.github.com/i-tech-uw' for "I-TECH-UW" cannot be resolved
+ERROR: /github/workspace/output/downloads.html#/html/body/div/div/div/p/a at Line 220, column 28: The link 'www.github.com/i-tech-uw' for "I-TECH-UW" cannot be resolved
+ERROR: /github/workspace/output/index.html#/html/body/div/div/div/p/a at Line 247, column 28: The link 'www.github.com/i-tech-uw' for "I-TECH-UW" cannot be resolved
+ERROR: /github/workspace/output/spec.html#/html/body/div/div/div/p/a at Line 199, column 28: The link 'www.github.com/i-tech-uw' for "I-TECH-UW" cannot be resolved
+ERROR: /github/workspace/output/toc.html#/html/body/div/div/div/p/a at Line 181, column 28: The link 'www.github.com/i-tech-uw' for "I-TECH-UW" cannot be resolved
+== fsh-generated/resources/Bundle-example-fr-search-bundle.json ==
+WARNING: Bundle/example-fr-search-bundle: Bundle.entry[0].resource.ofType(Location).type[0]: No code provided, and a code should be provided from the value set 'ServiceDeliveryLocationRoleType' (http://terminology.hl7.org/ValueSet/v3-ServiceDeliveryLocationRoleType)
+WARNING: Bundle/example-fr-search-bundle: Bundle: SearchSet Bundles should have a self link that specifies what the search was
+ERROR: Bundle/example-fr-search-bundle: Bundle.entry[0]: Except for transactions and batches, each entry in a Bundle must have a fullUrl which is the identity of the resource in the entry  
+== fsh-generated/resources/ImplementationGuide-facility.ig.json ==
+== fsh-generated/resources/Location-example-lab-location.json ==
+WARNING: Location/example-lab-location: Location.type[0]: No code provided, and a code should be provided from the value set 'ServiceDeliveryLocationRoleType' (http://terminology.hl7.org/ValueSet/v3-ServiceDeliveryLocationRoleType)

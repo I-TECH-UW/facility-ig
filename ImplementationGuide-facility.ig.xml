@@ -13,7 +13,7 @@ requirements and workflows based on the OpenHIE Architecture Version 3</p>
   <title value="Facility IG"/>
   <status value="draft"/>
   <experimental value="true"/>
-  <date value="2021-07-29T04:29:49+00:00"/>
+  <date value="2022-03-10T21:46:32+00:00"/>
   <publisher value="I-TECH-UW"/>
   <contact>
     <name value="I-TECH-UW"/>
@@ -204,6 +204,44 @@ requirements and workflows based on the OpenHIE Architecture Version 3</p>
         <valueString value="true"/>
       </extension>
     </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="fmm-definition"/>
+      </extension>
+      <extension url="value">
+        <valueString value="http://hl7.org/fhir/versions.html#maturity"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="propagate-status"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Bundle"/>
+      </extension>
+      <reference>
+        <reference value="Bundle/example-fr-search-bundle"/>
+      </reference>
+      <name value="FR Search Bundle"/>
+      <description value="Example Facility Registry Search Bundle"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Location"/>
+      </extension>
+      <reference>
+        <reference value="Location/example-lab-location"/>
+      </reference>
+      <name value="Example Lab Location"/>
+      <description value="Example Laboratory Location"/>
+      <exampleBoolean value="true"/>
+    </resource>
     <page>
       <nameUrl value="toc.html"/>
       <title value="Table of Contents"/>
