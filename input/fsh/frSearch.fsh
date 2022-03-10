@@ -13,5 +13,5 @@ Usage: #example
 Description: "Example Facility Registry Search Bundle"
 Title:   "FR Search Bundle"
 * type = #searchset
-* entry[+].seach.mode = #match
-* entry[+].resource = example-location
+* entry[+].search.mode = #match
+* entry[=].resource = example-lab-location
